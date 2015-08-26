@@ -24,5 +24,5 @@
 	//
 	
 	echo 'master';	
-	
+	echo 'edit after';	
 ?>
