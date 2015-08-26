@@ -23,4 +23,5 @@
 	
 	//
 	echo 'test2';	
+	echo 'after2';
 ?>
