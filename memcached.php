@@ -8,22 +8,17 @@
 	//$memcache->set('name',$name);
 	//echo $memcache->get('name');
 	
-	//¶ÔÏó
+	//å¯¹è±¡
 	$obj;
 	$obj->name = "jim";
 	$obj->age = 10;
 	$memcache->set('obj',$obj);
 	var_dump($memcache->get('obj'));
 	
-	//Êý×é
+	// æ•° ç»„
 	$arr[] = 1;
 	$arr[] = 2;
 	$memcache->set('arr',$arr);
 	var_dump($memcache->get('arr'));
-	
-	//
-	
-	echo 'master';	
-	echo 'edit after';	
-	echo 'end edit';
-?>
+?>	
+
