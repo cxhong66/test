@@ -25,4 +25,5 @@
 	
 	echo 'master';	
 	echo 'edit after';	
+	echo 'end edit';
 ?>
